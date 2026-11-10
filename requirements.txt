@@ -10,6 +10,7 @@ mpt4py             # polytope / invariant set tools (PyPI; if unavailable, insta
 matplotlib
 pyvista
 ipywidgets
+ipympl             # needed for %matplotlib widget in the notebooks
 webcolors
 
 # Notebooks
