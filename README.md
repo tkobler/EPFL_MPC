@@ -15,7 +15,7 @@ and the controller code it uses.
 | | [Deliverable_3_2](Deliverable_3_2/) | Same controllers, run with a target state (including an angle) |
 | | [Deliverable_3_3](Deliverable_3_3/) | Linear MPC combined with the position controller from `PIControl` |
 | | [Deliverable_4_1](Deliverable_4_1/) | Velocity MPC with invariant sets, plus position control |
-| | [Deliverable_5_1](Deliverable_5_1/), [Deliverable_5_2](Deliverable_5_2/) | Velocity MPC with disturbance estimation, simulated on the nonlinear rocket with a mass different from the nominal model (5_1: lighter, no fuel consumption; 5_2: heavier, with fuel consumption) |
+| | [Deliverable_5_1](Deliverable_5_1/), [Deliverable_5_2](Deliverable_5_2/) | Velocity MPC with disturbance estimation, simulated on the nonlinear rocket (5_1: mass lighter than nominal, no fuel consumption; 5_2: nominal mass, with fuel consumption (mass decreases during the simulation)) |
 | Landing | [Deliverable_6_1&2](Deliverable_6_1%262/) | Robust (tube) MPC for landing, with minimal robust invariant sets; notebooks 6_1 and 6_2 |
 | NMPC | [Deliverable_7](Deliverable_7/) | Nonlinear MPC for landing ([`nmpc_land.py`](Deliverable_7/nmpc_land.py), [notebook](Deliverable_7/Deliverable_7_1.ipynb)) |
 | Other | [PIControl](PIControl/) | PI position controller used with the velocity MPC |
