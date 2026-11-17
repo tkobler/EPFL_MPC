@@ -1,0 +1,21 @@
+# Core numerics and optimisation
+numpy
+scipy
+casadi
+cvxpy
+control            # python-control
+mpt4py             # polytope / invariant set tools (PyPI; if unavailable, install from its git repository)
+
+# Visualisation
+matplotlib
+pyvista
+ipywidgets
+ipympl             # needed for %matplotlib widget in the notebooks
+webcolors
+
+# Notebooks
+ipython
+jupyter
+
+# Rocket parameters (rocket.yaml)
+pyyaml
